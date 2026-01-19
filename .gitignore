@@ -1,0 +1,25 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# Lazy-managed stuff – never commit these
+.lazy/
+lazy-lock.json   # ← debatable – many people DO commit it (see notes below)
+
+# Cache / temporary files
+*.swp
+*.swo
+*.swn
+Session.vim
+.netrwhist
+.tag*
+tags
+tags.lock
+
+# Large / machine-specific
+lua/generated/
