@@ -1,6 +1,4 @@
 return {
-  { "echasnovski/mini.comment", enabled = false }, -- disable default
-
   {
     "numToStr/Comment.nvim",
     event = "VeryLazy",
